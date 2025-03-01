@@ -1,6 +1,6 @@
 name: Test Codes
 # https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#push
-on: push
+on: [push, workflow_dispatch]
 jobs:
   test:
     # https://docs.github.com/en/actions/writing-workflows/choosing-where-your-workflow-runs/choosing-the-runner-for-a-job
